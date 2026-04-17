@@ -12,6 +12,8 @@ Clean, ad-free Android music player. AMOLED black theme, playlist support, no ad
 - Mini player bar always visible
 - Zero ads, zero tracking
 
+<img width="360" height="738" alt="Simple Music Player UI" src="https://github.com/user-attachments/assets/1da14a74-d20d-497c-af2c-2117bee638ac" />
+
 ---
 
 ## How to Build
@@ -35,9 +37,6 @@ For a signed release APK (needed to install without developer mode on some devic
 | Rename / Delete | Long-press a playlist |
 | Add song to playlist | Long-press any song → pick a playlist |
 | Remove song | Open playlist → long-press the song |
-
-<img width="360" height="738" alt="Simple Music Player UI" src="https://github.com/user-attachments/assets/1da14a74-d20d-497c-af2c-2117bee638ac" />
-
 
 ---
 
