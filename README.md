@@ -36,7 +36,7 @@ For a signed release APK (needed to install without developer mode on some devic
 | Add song to playlist | Long-press any song → pick a playlist |
 | Remove song | Open playlist → long-press the song |
 
-<img width="1440" height="2952" alt="Simple Music Player UI" src="https://github.com/user-attachments/assets/1da14a74-d20d-497c-af2c-2117bee638ac" />
+<img width="720" height="1476" alt="Simple Music Player UI" src="https://github.com/user-attachments/assets/1da14a74-d20d-497c-af2c-2117bee638ac" />
 
 
 ---
