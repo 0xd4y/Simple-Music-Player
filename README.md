@@ -1,4 +1,4 @@
-# MuzioLite v2 – Ad-Free Music Player
+# Simple Music Player – Ad-Free Music Player
 
 Clean, ad-free Android music player. AMOLED black theme, playlist support, no ads.
 
