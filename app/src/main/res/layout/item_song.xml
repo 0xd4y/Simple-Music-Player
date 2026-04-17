@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="14dp"
+    android:paddingEnd="10dp">
+
+    <!-- Checkbox (multi-select mode) -->
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        android:button="@drawable/ic_checkbox"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <!-- Album art -->
+    <ImageView
+        android:id="@+id/ivAlbumArt"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/rounded_art_bg"
+        android:contentDescription="Album art" />
+
+    <!-- Song info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_muted"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+    <!-- Equaliser indicator -->
+    <ImageView
+        android:id="@+id/ivPlayingIndicator"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/ic_equalizer"
+        android:tint="@color/purple_primary"
+        android:visibility="gone"
+        android:contentDescription="Now playing" />
+
+    <!-- Duration -->
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_muted"
+        android:textSize="12sp"
+        android:minWidth="36dp"
+        android:gravity="end" />
+
+    <!-- Favourite heart -->
+    <ImageButton
+        android:id="@+id/btnFavourite"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_heart_outline"
+        android:contentDescription="Favourite"
+        android:padding="6dp" />
+
+</LinearLayout>
